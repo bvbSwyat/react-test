@@ -1,0 +1,53 @@
+ul {
+    list-style: none;
+}
+
+ul>li {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.images-list h1 {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.images-list li {
+    background-color: rgba(162, 206, 255, 0.52);
+    height: 450px;
+    position: relative;
+    margin: 5px 5px 0 0;
+}
+
+.images-list img {
+    width: 200px;
+    height: auto;
+    padding: 0 10px;
+}
+
+.images-list li button {
+    display: block;
+    position: absolute;
+    margin: 10px;
+    bottom: 0px;
+    width: calc(100% - 10px * 2);
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    width: 75px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
